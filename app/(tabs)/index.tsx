@@ -25,7 +25,7 @@ export default function App() {
   >(null);
   return (
     <SafeAreaView className="flex-1 bg-background p-5">
-      <View className="home-">
+      <View className="mb-2.5 flex-row items-center justify-between">
         <FlatList
           ListHeaderComponent={() => (
             <>
